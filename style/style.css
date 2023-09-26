@@ -1,0 +1,138 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text color */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Gaya judul "About Me" */
+#about h2 {
+    font-size: 24px; /* Ubah ukuran huruf sesuai preferensi Anda */
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the sections */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333333;
+    color: #180404;
+}
+
+/* Tambahan gaya untuk gambar profil */
+.profile-image {
+    max-width: 160px; /* Ubah ukuran sesuai keinginan Anda */
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 
+}
+
+/* Tambahan gaya untuk ikon kontak */
+.contact-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-icons .contact-icon {
+    display: inline-block;
+    margin: 0 10px; /* Untuk memberikan jarak antara ikon */
+}
+
+.contact-icons img {
+    max-width: 80px; /* Ubah ukuran sesuai keinginan Anda */
+    height: auto;
+}
+
+/* Gaya untuk daftar keterampilan */
+#hoby ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+#hoby li {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center; /* Teks menjadi tengah */
+    min-width: 100px; /* Lebar minimum untuk elemen keterampilan */
+}
+
+/* Tambahkan efek hover untuk elemen keterampilan */
+#hoby li:hover {
+    background-color: #555;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Gaya untuk daftar keterampilan */
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center; /* Teks menjadi tengah */
+    min-width: 100px; /* Lebar minimum untuk elemen keterampilan */
+}
+
+/* Tambahkan efek hover untuk elemen keterampilan */
+#skills li:hover {
+    background-color: #555;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
